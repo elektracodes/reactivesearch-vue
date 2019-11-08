@@ -30,7 +30,7 @@
         "postpublish": "yarn run version-upgrade"
     },
     "files": [
-      "dist"
+        "dist"
     ],
     "dependencies": {
         "@appbaseio/reactivecore": "8.2.15",

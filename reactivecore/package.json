@@ -7,14 +7,14 @@
 		"lib/"
 	],
 	"scripts": {
-		"lint": "eslint ",
+		"lint": "eslint .",
 		"start": "yarn run build -w",
 		"build": "babel --ignore __tests__ src --out-dir lib",
-		"precommit": "eslint ",
+		"precommit": "eslint .",
 		"prepublish": "yarn run build",
 		"version-upgrade": "nps upgrade-core -c ../../package-scripts.js",
 		"postpublish": "yarn run version-upgrade",
-		"test": "../../../node_modules/jest/bin/jest.js --watch --env node"
+		"test": "../../node_modules/jest/bin/jest.js --watch --env node"
 	},
 	"repository": {
 		"type": "git",

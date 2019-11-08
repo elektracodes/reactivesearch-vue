@@ -4,11 +4,11 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
-var configureStore = require('~/local/@appbaseio/reactivecore');
+var configureStore = require('@appbaseio/reactivecore');
 var configureStore__default = _interopDefault(configureStore);
 var VueTypes = _interopDefault(require('vue-types'));
 var emotion = require('emotion');
-var styled = require('~/local/@appbaseio/vue-emotion');
+var styled = require('@appbaseio/vue-emotion');
 var styled__default = _interopDefault(styled);
 var polished = require('polished');
 var redux = require('redux');
@@ -16,7 +16,7 @@ var Appbase = _interopDefault(require('appbase-js'));
 require('url-search-params-polyfill');
 var computeScrollIntoView = _interopDefault(require('compute-scroll-into-view'));
 var Highlight = _interopDefault(require('vue-highlight-words'));
-var helper = require('~/local/@appbaseio/reactivecore/lib/utils/helper');
+var helper = require('@appbaseio/reactivecore/lib/utils/helper');
 var _mergeJSXProps = _interopDefault(require('@vue/babel-helper-vue-jsx-merge-props'));
 var NoSSR = _interopDefault(require('vue-no-ssr'));
 

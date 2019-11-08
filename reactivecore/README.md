@@ -63,4 +63,4 @@ import { <methodName> } from "@appbaseio/reactivecore/lib/utils"
 
 ## Changelog
 
-Check the [Changelog](CHANGELOG.md) doc
+Check the [Changelog](./CHANGELOG.md) doc

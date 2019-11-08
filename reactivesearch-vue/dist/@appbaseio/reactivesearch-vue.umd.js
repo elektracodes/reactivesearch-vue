@@ -14751,7 +14751,8 @@
 	        nested: {
 	          path: props.nestedField
 	        },
-	        aggs: clonedQuery.aggs
+	        aggs: clonedQuery.aggs,
+	        size: clonedQuery.size
 	      }
 	    };
 	  }
@@ -14792,7 +14793,8 @@
 	        nested: {
 	          path: props.nestedField
 	        },
-	        aggs: clonedQuery.aggs
+	        aggs: clonedQuery.aggs,
+	        size: clonedQuery.size
 	      }
 	    };
 	  }
@@ -18643,7 +18645,7 @@
 	    try {
 	      // in older versions of nuxt, it's process.BROWSER_BUILD
 	      // eslint-disable-next-line
-
+	      
 						var s = document.createElement("script");
 						s.setAttribute("src","https://cdn.jsdelivr.net/npm/vue-slider-component@2.8.2/dist/index.js");
 						s.onload = function(){
@@ -18651,7 +18653,7 @@
 							components['vue-slider-component'] = VueSlider;
 						};
 						document.head.appendChild(s);
-
+					
 	    } catch (e) {
 	      console.error('Unable to load vue-slider', e);
 	    }

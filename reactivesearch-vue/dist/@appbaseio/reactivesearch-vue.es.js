@@ -1,14 +1,14 @@
-import configureStore, { helper, Actions, suggestions as suggestions$1, causes, Reducers } from '~/local/@appbaseio/reactivecore';
+import configureStore, { helper, Actions, suggestions as suggestions$1, causes, Reducers } from '@appbaseio/reactivecore';
 import VueTypes from 'vue-types';
 import { css } from 'emotion';
-import styled, { css as css$1, cx } from '~/local/@appbaseio/vue-emotion';
+import styled, { css as css$1, cx } from '@appbaseio/vue-emotion';
 import { darken, rgba, lighten } from 'polished';
 import { bindActionCreators } from 'redux';
 import Appbase from 'appbase-js';
 import 'url-search-params-polyfill';
 import computeScrollIntoView from 'compute-scroll-into-view';
 import Highlight from 'vue-highlight-words';
-import { isEqual as isEqual$a } from '~/local/@appbaseio/reactivecore/lib/utils/helper';
+import { isEqual as isEqual$a } from '@appbaseio/reactivecore/lib/utils/helper';
 import _mergeJSXProps from '@vue/babel-helper-vue-jsx-merge-props';
 import NoSSR from 'vue-no-ssr';
 
